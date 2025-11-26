@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>63</title>
+  </head>
+  <style>
+    html,
+    body {
+      height: 100%;
+    }
+    body {
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      color: cornflowerblue;
+      font-size: 24px;
+      font-weight: 600;
+      text-align: center;
+    }
+    p {
+      margin: 0;
+    }
+    a{
+      color: inherit;
+      padding: 10px 20px;
+      background-color: black;
+      border-radius: 8px;
+      display: inline-block;
+    }
+    footer,
+    header {
+      background-color: rgba(0, 0, 0, 0.8);
+      padding: 20px 0;
+    }
+    main {
+      flex-grow: 1;
+      display: flex;
+      flex-direction: column;
+      text-align: left;
+      gap: 400px;
+    }
+    article > p{
+    }
+    nav {
+      background-color: antiquewhite;
+      display: flex;
+      justify-content: center;
+      gap: 40px;
+    }
+  </style>
+  <body>
+    <header><p>Header</p></header>
+    <nav>
+      <!-- <a href="#">Strona główna</a>
+      <a href="#">Koszt rat</a>
+      <a href="#">Nasz partner</a> -->
+      Navigation
+    </nav>
+    <main>
+      <article><p>Article</p></article>
+      <article><p>Article</p></article>
+    </main>
+    <footer><p>Footer</p></footer>
+  </body>
+</html>
