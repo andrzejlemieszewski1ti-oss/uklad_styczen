@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css">
+</head>
+<style>
+body{
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f5f5f5;
+}
+.swiper {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+.swiper-wrapper {
+    display: flex;
+    align-items: center;
+}
+.swiper-slide {
+    width: auto;
+    padding: 20px 40px;
+    background: white;
+    border-radius: 18px;
+    box-shadow: 0px 10px 25px rgba(0,0,0,0.1);
+    transition: transform .35s, opacity .35s;
+    opacity: 0.4;
+    transform: scale(0.8);
+}
+.swiper-slide a{
+    font-size: 48px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: rgba(0, 47, 255, 0.8);
+}
+
+.swiper-slide-active {
+    opacity: 1;
+    transform: scale(1);
+    
+}
+.swiper-button-prev,
+.swiper-button-next {
+    color: #002fff;
+    transform: scale(1.2);
+}
+.swiper-button-prev:hover,
+.swiper-button-next:hover {
+    color: #000db3;
+}
+
+</style>
+<body>
+
+<div class="swiper">
+  <div class="swiper-wrapper">
+    <div class="swiper-slide"><a href="styczen_1.html">styczen_1</a></div>
+    <div class="swiper-slide"><a href="styczen_2.html">styczen_2</a></div>
+    <div class="swiper-slide"><a href="styczen_3.html">styczen_3</a></div>
+    <div class="swiper-slide"><a href="styczen_4.html">styczen_4</a></div>
+    <div class="swiper-slide"><a href="styczen_5.html">styczen_5</a></div>
+    <div class="swiper-slide"><a href="styczen_6.html">styczen_6</a></div>
+    <div class="swiper-slide"><a href="styczen_7.html">styczen_7</a></div>
+    <div class="swiper-slide"><a href="styczen_8.html">styczen_8</a></div>
+    <div class="swiper-slide"><a href="styczen_9.html">styczen_9</a></div>
+    <div class="swiper-slide"><a href="styczen_10.html">styczen_10</a></div>
+    <div class="swiper-slide"><a href="styczen_11.html">styczen_11</a></div>
+    <div class="swiper-slide"><a href="styczen_12.html">styczen_12</a></div>
+  </div>
+  <div class="swiper-button-prev"></div>
+  <div class="swiper-button-next"></div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+<script src="main.js"></script>
+</body>
+</html>

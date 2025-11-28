@@ -31,29 +31,28 @@
     main {
       flex-grow: 1;
       display: flex;
-      flex-direction: column;
       align-items: flex-start;
       justify-content: center;
-      gap: 300px;
-      border: 1px solid black;
-      width: 1200px;
-      margin: 0 auto;
-    }
-    nav {
-      background-color: antiquewhite;
     }
         a{
       text-transform: uppercase;
       color: bisque;
       background-color: black;
     }
+    article:first-of-type{
+      flex-grow: 1;
+      border: 1px solid black;
+      height: 100%;
+    }
+    article:last-of-type{
+      flex-grow: 3;
+      height: 100%;
+    }
   </style>
   <body>
     <a href="index.html">Back</a>
     <header><p>Header</p></header>
-    <nav><p>Navigation</p></nav>
     <main>
-      <p>Main</p>
       <article>
         <p>Article</p>
       </article>

@@ -23,13 +23,6 @@
     p {
       margin: 0;
     }
-    a{
-      color: inherit;
-      padding: 10px 20px;
-      background-color: black;
-      border-radius: 8px;
-      display: inline-block;
-    }
     footer,
     header {
       background-color: rgba(0, 0, 0, 0.8);
@@ -39,10 +32,9 @@
       flex-grow: 1;
       display: flex;
       flex-direction: column;
-      text-align: left;
-      gap: 400px;
-    }
-    article > p{
+      text-align: left; 
+      align-items: center;
+      justify-content: start;
     }
     nav {
       background-color: antiquewhite;
@@ -50,18 +42,27 @@
       justify-content: center;
       gap: 40px;
     }
+    a{
+      text-transform: uppercase;
+      color: bisque;
+      background-color: black;
+    }
+    section{
+      border: 1px solid black;
+      flex-grow: 1;
+      width: 50vh;
+      text-align: center;
+    }
   </style>
   <body>
+    <a href="index.html">Back</a>
     <header><p>Header</p></header>
     <nav>
-      <!-- <a href="#">Strona główna</a>
-      <a href="#">Koszt rat</a>
-      <a href="#">Nasz partner</a> -->
-      Navigation
+      Menu
     </nav>
     <main>
-      <article><p>Article</p></article>
-      <article><p>Article</p></article>
+      Blok główny
+      <section>content</section>
     </main>
     <footer><p>Footer</p></footer>
   </body>

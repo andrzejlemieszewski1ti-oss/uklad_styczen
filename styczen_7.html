@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>63</title>
+  </head>
+  <style>
+    html,
+    body {
+      height: 100%;
+    }
+    body {
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      color: cornflowerblue;
+      font-size: 24px;
+      font-weight: 600;
+      text-align: center;
+    }
+    p {
+      margin: 0;
+    }
+    header {
+      background-color: rgba(0, 0, 0, 0.8);
+      padding: 20px 0;
+    }
+    main {
+      flex-grow: 1;
+      display: flex;
+    }
+        a{
+      text-transform: uppercase;
+      color: bisque;
+      background-color: black;
+    }
+    div{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        flex-grow: 1;
+        border: 1px solid black;
+    }
+    article:last-of-type{
+        flex-grow: 3;
+    }
+  </style>
+  <body>
+    <a href="index.html">Back</a>
+    <header><p>Header</p></header>
+    <main>
+        <div>
+            <article>Article</article>
+            <article>Article</article>
+        </div>
+        <article>Article</article>
+    </main>
+  </body>
+</html>
